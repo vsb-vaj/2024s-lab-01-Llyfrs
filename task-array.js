@@ -15,31 +15,33 @@ for (let i = 0; i < length; i = i + 1) {
 // a) Function which will print to console a whole array
 export const printArray = (numbers) => {
     // Your code:
-  numbers.map((number) => { console.log(number) });
+  console.log(numbers);
  
 };
 
 // b) Function which will print to console the length of array
 export const printLength = (numbers) => {
   // Your code:
+  console.log(numbers.length);
  
 };
 
 // c) Function which will print to console the first element of array
 export const printFirstItem = (numbers) => {
   // Your code:
-
+  console.log(numbers[0]);
 };
 
 // d) Function which will print to console the last element
 export const printLastItem = (numbers) => {
   // Your code:
-
+    console.log(numbers[numbers.length - 1]);
 };
 
 // e) Function which will print to console the largest number (You can check Math functions)
 export const printLargestItem = (numbers) => {
   // Your code:
+  console.log(Math.max(...numbers));
 
 };
 

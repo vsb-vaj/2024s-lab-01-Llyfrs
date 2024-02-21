@@ -14,7 +14,8 @@ for (let i = 0; i < length; i = i + 1) {
 
 // a) Function which will print to console a whole array
 export const printArray = (numbers) => {
-  // Your code:
+    // Your code:
+  numbers.map((number) => { console.log(number) });
  
 };
 
@@ -89,3 +90,5 @@ export const printNumsMultipliedBy2 = (numbers) => {
 
 
 };
+
+

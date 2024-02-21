@@ -48,7 +48,7 @@ export const printLargestItem = (numbers) => {
 // f) Function which will print to console the smallest number (You can check Math functions)
 export const printSmallestItem = (numbers) => {
   // Your code:
-
+  console.log(Math.min(...numbers));
 };
 
 // g) Function which will print to console the sum of all numbers in array (You can check reduce function)

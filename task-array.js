@@ -54,6 +54,7 @@ export const printSmallestItem = (numbers) => {
 // g) Function which will print to console the sum of all numbers in array (You can check reduce function)
 export const printSum = (numbers) => {
   // Your code:
+    console.log(numbers.reduce((a, b) => a + b, 0));
 
 };
 
